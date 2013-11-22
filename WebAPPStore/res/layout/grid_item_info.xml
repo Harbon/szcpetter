@@ -1,0 +1,27 @@
+<!-- UserHome界面的具体条目 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+<!-- app的图标 -->   
+     <ImageView 
+         android:id="@+id/ItemImage"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true">
+         
+     </ImageView>
+  
+<!-- app的名字 -->
+     
+     <TextView
+         android:id="@+id/ItemText"
+         android:layout_below="@+id/ItemImage"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true">
+         
+     </TextView>
+
+</RelativeLayout>
