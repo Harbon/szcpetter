@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Tab底部的资源  -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- 被选中的时候，显示图片资源里的home_btn_gb_s -->
-    <item android:drawable="@color/vass_color" android:state_selected="true"/>
-</selector>
